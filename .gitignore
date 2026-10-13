@@ -1,0 +1,43 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated builds
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing artifacts
+coverage/
+playwright-report/
+test-results/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Local deployment configuration
+.vercel/
+
+# Sensitive files
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secrets*
